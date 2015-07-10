@@ -25,32 +25,6 @@ class UsersController extends AppController
        
     }
 
-    public function initDB()
-    {
-        $group = $this->User->Group;
-        // Admin: Will have access to Everything.
-        $group->id = 1;
-        $this->Acl->allow($group, 'controllers');
-
-        //Writers: Will have access to Game, News, Preview, Review, Feature, Blog.
-        $group->id = 2;
-        $this->Acl->deny($group, 'controllers');
-        //site area
-        $this->Acl->allow($group, 'controllers/Pages');
-        $this->Acl->allow($group, 'controllers/News');
-        $this->Acl->allow($group, 'controllers/Previews');
-        $this->Acl->allow($group, 'controllers/Reviews');
-        $this->Acl->allow($group, 'controllers/Blogs');
-        $this->Acl->allow($group, 'controllers/Features');
-        $this->Acl->allow($group, 'controllers/Games');
-        
-
-        echo "all done";
-        exit;
-    }
-
-   
-
     function index()
     { 
         $this->User->recursive = 1;
