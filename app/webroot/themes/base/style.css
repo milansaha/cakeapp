@@ -1,0 +1,820 @@
+/* CSS Document */
+body{ margin: 0 auto; padding: 0 0 0 0; color: #000; font: normal 12px Verdana, Geneva, sans-serif text-align: left; background:#fff; border-bottom: 4px solid #119b52; }
+
+h1{ margin: 0; padding: 0; color: #1b1724; }
+h2{ margin: 0; padding: 0;}
+h3{ margin: 0; padding: 0; }
+h4{ margin: 0; padding: 0; }
+h5{ margin: 0; padding: 0; }
+h6{ margin: 0; padding: 0; }
+p{ margin: 0; padding: 0; line-height: 18px; color: #4e475c;  }
+a{ margin: 0; padding: 0; text-decoration:none; outline: none;  }
+ul,ol,li{ margin: 0; padding: 0; list-style:none;}
+img { margin: 0; padding: 0; border: 0; }
+form{ margin: 0; padding: 0; }
+input{ margin: 0; padding: 0; }
+*:focus{ outline: none; }
+
+
+small{ color: #a096b7; }
+
+
+.titleDiv{
+	padding: 6px 0;
+	margin-top: 20px;
+	}
+.titleDiv ul li{
+	display: inline;
+}
+.titleDiv ul li a{ 
+	background: none repeat scroll 0 0 #31145C;
+    color: #FFFFFF;
+    font: 16px Tahoma,Geneva,sans-serif;
+    padding: 6px 20px;
+    text-decoration: none;
+
+}
+
+table.loginInfo{ font: normal 10px Tahoma, Geneva, sans-serif; }
+table.loginInfo span{ color:#060; font-weight: bold;}
+a.tryNow{ display: block; margin-left: 3px; padding: 2px 11px 2px 4px; color: #714abe !important; background: #e9dcff url(../img/loginarrow.png) right 8px no-repeat; }
+table.loginInfo a{ color: #ada4c1; }
+#wrapper{ margin:auto; }
+
+
+/**-------------------- Header CSS ---------------------------*/
+#heaaderWrapper{ margin:auto;}
+#header{ margin:auto; width: 1000px; }
+#headerLeft{ float: left; width: 350px; }
+
+#headerRight{ float:right; width: 510px; margin-top: 55px; /*overflow:hidden;*/ }
+#headerRight ul{ margin: 0; padding: 0; }
+#headerRight ul li{ display: inline; float:left; margin-right: 10px; }
+#headerRight ul li.lastLi{ margin: 0 0 0 0; position: relative; }
+#rightSearch{ background:url(../img/search.png) right top no-repeat; border: 1px solid #e0d9ec; margin-top: 5px; }
+#rightSearch input{ border: 0; background: none; padding: 3px; width: 305px; color: #b1b0b0; font-size: 11px; }
+input#rightSubmit{ width: 40px; height: 22px; overflow:hidden; cursor:pointer; }
+
+table.UserProf{ width: 200px; }
+
+table.userProf p{ font: normal 10px Arial, Helvetica, sans-serif; text-align:right; color: #31145c; padding-bottom: 2px; border-bottom: 1px solid #d9cfef; }
+table.userProf img{ border: 1px solid #d9cfef; margin-left: 7px;}
+ul.userProfList{ margin:0; padding:0;}
+ul.userProfList li{ display:inline; margin:0 !important; }
+ul.userProfList li a{ padding: 0 3px; border-right: 1px solid #d9cfef; font: normal 11px Arial, Helvetica, sans-serif; color: #42b047; margin-right: 2px; }
+ul.userProfList li a.last-child{ border-right: none; margin-right: 0; }
+ul.userProfList li a img{ border: 0; margin: 0; }
+
+
+
+
+
+/**----------------- Navigation CSS ---------------------------**/
+#navigationWrapper{ background:url(../img/navigationbg.png) left top repeat-x; }
+.navigation{ margin: auto; width: 1000px; }
+
+.navigation ul{ margin: 0; padding: 0; }
+.navigation ul li{ padding:0; margin: 0;float: left;  }
+.navigation li a{display: block; font: normal 14px Arial, Helvetica, sans-serif; color: #FFF; padding: 10px 12px 13px 12px;  }
+.navigation li a:hover{ color: #8448ff; }
+.navigation li a.active{background: #41ae46; }
+
+.doubleMenu, .doubleMenuRight{ width: 500px; }
+.doubleMenu{ float: left; }
+.doubleMenuRight{ float: right; width: 480px; }
+.doubleMenuRight ul{ float:right; }
+
+
+
+/**------------------------ Container CSS -----------------------------**/
+#containerDiv{ margin: auto; margin-top: 30px; width: 1000px; }
+
+/**------------------------ Left Content CSS -------------------------**/
+#leftSiderBar{ float: left; width: 680px; overflow: hidden; }
+
+
+
+/**---------------------- SLIDER CSS -------------------------------**/
+#featured{ 
+	width:678px; 
+	padding-right:0; 
+	position:relative; 
+	/*border:5px solid #ccc;*/ 
+	height:272px; 
+	background:#5421bd;
+	border: 1px solid #5421bd;
+	margin-bottom: 20px;
+}
+
+#featuredInner{ 
+	width:678px; 
+	padding-right:0; 
+	position:relative; 
+	/*border:5px solid #ccc;*/ 
+
+	background:#5421bd;
+	margin-bottom: 20px;
+}
+
+
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:576px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:103px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	/*padding:1px 0; padding-left:13px;*/  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; /*margin:2px 5px;*/ 
+	/*background:#fff; 
+	padding:2px; */
+	/*border:1px solid #eee;*/
+	padding-top: 2px;
+	padding-left: 3px;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:54px; 
+	color:#333;  /*background:#fff; */
+	line-height:20px;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('../img/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#139b12; 
+}
+#featured .ui-tabs-panel{ 
+	width:576px; height:272px; 
+	background:#5421bd; position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:182px; left:0; 
+	height:91px; 
+	background: #3c933e; 
+	opacity: .9;
+}
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:13px; 
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+	font: normal 25px Arial, Helvetica, sans-serif;
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+
+
+/**--------------------- TABBER CSS -------------------------**/
+.menu { padding: 0; clear: both; height: 30px; overflow:hidden;  }
+.menu li { display: inline; }
+.menu li a { /*background: #fff; */ padding: 6px 20px; float:left; text-decoration: none; color: #5421bd; font: normal 16px Arial, Helvetica, sans-serif; }
+.menu li.active a { background: #31145c; color: #fff !important;  }
+.content { float: left; clear: both; border-top: 2px #31145c solid; padding: 0 20px 20px 0; width: 100%; }
+
+.tabcontent{}
+
+/*.tabcontent img{ padding: 20px 10px 20px 0; float: left; }*/
+.tabcontent img{ margin: 20px 10px 20px 0; float: left; border: 1px solid #000; }
+
+
+ul.listContent{ margin:0; padding: 0; }
+ul.listContent li{ display: block; padding: 0; border-bottom: 1px solid #d9cfef; }
+.inside small{ font-family: Arial, Helvetica, sans-serif; font-style: italic;}
+.inside small span{color: #5421BD; font-size: 11px; }
+.tabcontent h1{ margin:0; padding:0; padding-top: 17px; font: normal 16px Arial, Helvetica, sans-serif; color: #1b1724; /*line-height: 9px;*/ }
+.tabcontent h1 a{ color: #1b1724; }
+.tabcontent h1 a:hover{ text-decoration:underline; }
+.tabcontent h6{ margin:0; padding:0; font: italic normal 11px Arial, Helvetica, sans-serif; color: #a096b7; }
+.tabcontent h6 span{ color: #5420bd; }
+.tabcontent p{ margin-bottom: 3px; color: #4e475c; font: normal 12px Arial, Helvetica, sans-serif;}
+.tabcontent h6{  }
+.tabcontent h6 a{ background: url(../img/comment.png) left 2px no-repeat; padding-left: 18px; color: #5420bd; font: normal 12px Arial, Helvetica, sans-serif; }
+
+
+#multiMenu, #multiMenu1{ position: relative; clear:both;}
+
+ul.listMenu{ margin:0; padding: 0; position: absolute; top: 7px; left: 379px; }
+ul.listMenu li{ display: inline; }
+ul.listMenu li a{ display:block; float:left; padding: 3px 10px; color: #a096b7; font: normal  11px Arial, Helvetica, sans-serif; }
+ul.listMenu li a:hover{ color: #009446; }
+ul.listMenu li a.current{ color: #009446; } 
+
+
+ul.platformListMenu{ margin:0; padding-left: 180px; position: absolute; top: 7px; left: 379px; }
+ul.platformListMenu li{ display: inline; }
+ul.platformListMenu li a{float: right;padding: 0 8px 0 0 !important;color: #3D943F; background: url(../img/clickcheck.jpg) right 2px no-repeat !important; display:block; float:left; padding: 3px 10px;  font: normal  11px Arial, Helvetica, sans-serif; }
+ul.platformListMenu li a:hover{ color: #3D943F; }
+ul.platformListMenu li a.current{ color: #3D943F; } 
+
+.blockHolder{}
+
+/**-------------------- CONTENT BLOCK CSS -------------------------**/
+h1.contentTitle{ display:block; background: #31145c; padding: 6px 0 5px 10px; font: normal 16px Arial, Helvetica, sans-serif; color: #fff; margin-bottom: 15px !important; }
+.contentBlock{ float: left; width: 310px; overflow: hidden; margin-right: 50px;  }
+
+.contentBlockRight{ margin-right: 0; float:right; width: 320px; }
+.contentBlockRight .boxContent{ margin: auto; width: 300px; }
+.boxContent{ margin: auto; width: 290px; }
+.boxContent li{ margin-bottom: 20px; display: block; }
+.boxContent img{ float: left; margin: 0 10px 0px 0; }
+.boxContent h1{ color: #000; font: normal 14px Arial, Helvetica, sans-serif; /*margin-bottom: 5px; */}
+.boxContent h1 a{ color: #000; }
+.boxContent h1 a:hover{ text-decoration:underline; }
+.boxContent p{ margin-top: 5px; color: #4d465b; font: normal 12px Arial, Helvetica, sans-serif; }
+.boxContent h6{ font: italic normal 11px Arial, Helvetica, sans-serif; color: #5420BD; margin:0; padding:0; margin-top: 5px;  }
+.boxContent h6.postedTime{ color: #A096B7; }
+/*.boxContent small.postedTime{ position: relative; top: -10px; }
+.boxContent p.detail{ position: relative; top: -9px; }
+.boxContent small.author{ color: #5420bd; font: italic normal 11px Arial, Helvetica, sans-serif; position: relative; top: -8px;  }*/
+
+
+
+/**-------------------------------- EVEWNT CSS ---------------------**/
+.eventContent { clear: both; border-top: 3px #31145c solid; border-bottom: 3px #31145c solid; padding: 5px 0; width: 100%; }
+.eventContent img{ float: right; margin-left: 15px; }
+.eventContent h1{ font: normal 16px Arial, Helvetica, sans-serif; color: #1b1724; }
+.eventContent h1 a{ color: #1b1724; }
+.eventContent h1 a:hover{ text-decoration:underline; }
+.eventContent h6{ margin-top: 16px; color: #a096b7; font: italic normal 11px Arial, Helvetica, sans-serif; }
+.eventContent h6 span{ color: #5326ae; font-style:normal; }
+
+.eventContent ul{ margin:5px 0 0 0; padding:0; height: 30px; overflow:hidden; }
+.eventContent ul li{ display: inline; }
+.eventContent li a{ float: left; display:block; background: #3d943f; color: #fff; padding: 3px 8px; margin-right: 7px; font: normal 18px Arial, Helvetica, sans-serif;  }
+
+
+/**------------------------ RATING CSS -------------------------------**/
+#recentRating{ margin-top: 20px;}
+.rightContent { clear: both; border-top: 3px #31145c solid; padding: 0 0; width: 100%; }
+
+.innerBlock{ width: 95%; margin: auto; }
+ul.playstation{ margin:10px 0 0 7px; padding: 0; }
+ul.playstation li{ display: inline; float:left; margin-right: 7px; margin-bottom: 15px; }
+ul.playstation li a{ margin:0; padding:0;  }
+img.feature{ clear:right; display:block; position: relative; left: 5px;border: 1px solid black;}
+img.stars{ position: relative; left: -5px;}
+ul.innerMenuClass li a{ padding: 5px 9px; color: #009446 !important; font: normal 11px Arial, Helvetica, sans-serif; }
+.innerMenuClass li.active{ color: #009446; }
+
+.innerBoxs p a.clickCheck{ font: normal 11px Arial, Helvetica, sans-serif; color: #3d943f; background: url(../img/clickcheck.jpg) right 2px no-repeat !important; padding: 0 8px 0 0 !important; float:right; }
+.innerBoxs p a.clickCheck:hover{ text-decoration:underline; color: #000; }
+
+
+#featureTopic{ margin-top: 20px; }
+ul.featuresContent{ margin: 20px 0;}
+ul.featuresContent li{display: block; margin-bottom: 20px; }
+ul.featuresContent li  h1{ margin-bottom: 5px; }
+ul.featuresContent li  h1 a{ font: normal 12px Arial, Helvetica, sans-serif; color: #000;}
+ul.featuresContent h6 a{ font: normal 11px Arial, Helvetica, sans-serif; color: #139b12 !important; }
+ul.featuresContent h6 a:hover{ text-decoration:underline; }
+ul.featuresContent span{ color: #a096b7; font: normal 11px Arial, Helvetica, sans-serif; }
+
+
+#blogRoll{ position: relative; font: normal 12px Arial, Helvetica, sans-serif; }
+.pollDate{ position: absolute; top: 7px; right: 0; }
+ul#blogPoll li a{ padding: 8px 25px !important; }
+
+
+ul.pollSelect{ height:auto !important; margin-left: 20px !important; }
+ul.pollSelect li{ display: block !important; line-height: 25px; font-size: 11px; } 
+ul.pollSelect li input[type=radio]{ position: relative; top: 2px; margin-right: 5px; }
+.pollDate h6 { font: normal 15px Arial, Helvetica, sans-serif; color: #5326ae !important; }
+.pollDate span{ color: #a096b7; font: normal 11px Arial, Helvetica, sans-serif; }
+
+.customePoll{ border-bottom: 0; }
+.customePoll a{ margin-left: 25px; /*display:block; */margin-top: 20px; }
+.customePoll a img{ float: none;}
+
+#blogRoll .eventContent p{  line-height: 15px; color: #000; }
+
+span.SignUpVote{ color: #2d204e; font: normal 34px Arial, Helvetica, sans-serif;  }
+span.forVote{ color: #27923a; font: normal 17px Arial, Helvetica, sans-serif; }
+/**------------------------ SLIDE RIGHT CSS ---------------------------**/
+#sidebarRight{ width: 303px; overflow: hidden; float:right;}
+#sidebarRight .commonImg img{ border: 1px solid #5326ae; }
+
+.commonImg{ margin-bottom: 20px;}
+
+
+
+
+/**------------------------ FOOTER CSS ------------------------------**/
+#footer_container{ border: 18px solid #31145c; border-width: 18px 0 0 0; padding-top: 10px; }
+
+.footerNav{ margin: auto; width: 1000px;  padding-bottom: 5px; border-bottom: 1px solid #; margin-bottom: 20px; }
+.footerNav ul{ margin: 0; padding: 0; }
+.footerNav ul li{ padding:0; margin: 0;float: left;  }
+.footerNav li a{display: block; font: normal 12px Arial, Helvetica, sans-serif; color: #5e5651; padding: 6px 8px 6px 8px;  }
+.footerNav li a:hover{ color: #8448ff; }
+.footerNav li a.active{color: #41ae46; }
+.footerNav li active{ color: #5e5651; }
+
+
+
+
+
+/**----------------------------- FOUR WIDGET CSS -----------------------------**/
+#widgetBlock{ margin:auto; width: 1000px; }
+.widget_Box{ float: left; width: 225px; }
+.widget_Box h1{ font: bold 11px Arial, Helvetica, sans-serif; color: #5421bd; margin-bottom: 5px;  }
+ul.widget_list{ margin:0; padding:0; }
+ul.widget_list li{ line-height: 15px; }
+.widget_list li a{ font: normal 11px Arial, Helvetica, sans-serif; color: #7b6d99;  }
+.widget_list li a:hover{ text-decoration:underline; }
+
+
+
+
+
+.socialBox{ width: 75px; float:right; text-align:right; }
+a.facebook, a.twitter, a.youtube, a.myspace, a.rssbox{ padding-right: 30px !important; text-decoration:underline; display:block; padding: 5px 0; background-position: right 3px !important; font-size: 11px !important; }
+a.facebook{ background:url(../img/facebook.png) right top no-repeat; }
+a.twitter{ background: url(../img/twitter.png) right top no-repeat; }
+a.youtube{ background: url(../img/youtube.png) right top no-repeat; }
+a.myspace{ background: url(../img/myspace.png) right top no-repeat;  }
+a.rssbox{ background: url(../img/rss.png) right top no-repeat; }
+
+#footerBtm{ padding-bottom: 20px; margin:auto; width: 1000px; margin-top: 20px; padding-top: 15px; border-top: 1px solid #D9CFEF; }
+#footerLogo{ float: left; width: 300px; }
+#footerText{ float: right; width: 650px; }
+#footerText p{ text-align:right; color: #a096b7; font: normal 11px Arial, Helvetica, sans-serif; }
+#footerText p a{color: #a096b7; }
+#footerText p a:hover{ text-decoration:underline; }
+
+.footerMenu1{ float: left; width: 380px; margin-right: 20px; }
+.footerMenu2{ float: left; width: 380px;}
+.searchBox{ float:right; width: 200px; margin-top: 1px; border: 1px #e0d9ec solid; padding: 1px 1px 0 3px; }
+.searchBox input.inputBox{ background: none; border: 0; width: 175px; position: relative; top: 0;    }
+.searchBox input.searchBtn{ background: url(../img/searchsign.png) left top no-repeat; width: 25px; height: 17px; overflow:hidden; border:0; cursor: pointer;  }
+/**********************
+COMMON CSS
+**********************/
+/*.clr{ clear:both; height: 0; overflow: hidden; }*/
+.clr , span.clr{ clear:both; height: 0; overflow: hidden; }
+span.clr{ display: block;}
+
+
+
+
+/********************************   INSIDE PAGE CSS   ******************************************/
+#insideBlock{ background: #e6f1eb; padding: 20px 15px 10px 15px; }
+
+#insideBlock img{ float: left; margin-bottom: 40px; background: #fff; padding: 3px; margin-right: 15px; }
+
+#insideBlock h1{ font: normal 20px Arial, Helvetica, sans-serif; color: #009446; }
+#insideBlock h2{ font: normal 12px Arial, Helvetica, sans-serif; color: #7f8582; }
+#insideBlock h2 span{ color: #5326ae; }
+#insideBlock p{ text-align: justify; color: #3a413d; margin-top: 20px; font: normal 12px Arial, Helvetica, sans-serif; }
+#insideBlock h3.tagline{font: italic normal 13px Arial, Helvetica, sans-serif;padding: 3px 0px 3px 0px}
+
+.newsUpdate{ padding-top: 15px; }
+.newsUpdate h1{ font: normal 20px Arial, Helvetica, sans-serif; color: #5326ae; }
+.newsUpdate h1 a{ font: normal 17px Arial, Helvetica, sans-serif; color: #5326ae;}
+.newsUpdate h1 a:hover{ text-decoration: underline; }
+.newsUpdate h6{ color: #009446; font: normal 11px Arial, Helvetica, sans-serif; line-height: 20px; }
+.newsUpdate h6 span{ color: #a29cad; }
+
+.newsUpdate p{ color: #4d465b; font: normal 12px Arial, Helvetica, sans-serif; }
+.newsUpdate a{ color: #01aa51; font: normal 12px Arial, Helvetica, sans-serif; }
+.newsUpdate a span{ color: #002201; padding-left: 5px;  }
+.newsUpdate a:hover{ text-decoration: underline; }
+
+.newsUpdate ul.listContent li{ border-bottom: 0; margin-bottom: 15px; }  
+
+.userBox{}
+
+.pressPrev img{ /*padding-top: 20px;*/ }
+.pressPrev h1{ margin-bottom: 5px;}
+.pressPrev h1 a{ color: #1B1724; font-weight: normal; }
+.pressPrev small span{ color: #5326ae; }
+.pressPrev small span.yearCol{ color: #cabee3; }
+.pressPrev small{ line-height: 20px; font-size: 11px; font-style: italic; }
+
+.pressPrev p{ margin-bottom: 10px; margin-top: 10px; }
+
+.pressPrev h6 a{ background: none; color: #009446; padding:0; margin:0; }
+
+
+
+.preserveBox{ position: relative; }
+.ratignBlock{ position: absolute; right: 0; top: 18px; }
+.ratignBlock ul li{ float:left; display:inline; border:0; line-height: 20px;  }
+.ratignBlock img{ margin:0; padding:0; float:none; border: 0px; }
+
+span.ratingNumber{ padding: 2px 4px; background: #31145C; color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+
+.generalInfo{ margin-bottom: 20px; }
+
+.generalInfo p a.clickCheck {
+    background: url("../img/clickcheck.jpg") no-repeat scroll right 10px transparent;
+    color: #3D943F;
+    float: right;
+    font: 11px Arial,Helvetica,sans-serif;
+    padding-right: 8px;
+}
+
+.generalContent{ border-top: 3px solid #31145C; }
+
+.leftGen{ float: left; width: 200px; padding: 0 5px; }
+.leftGen h1{ margin-top: 20px; font: normal 22px Arial, Helvetica, sans-serif; color: #00b656;  } 
+.leftGen h6{ font: normal 11px Tahoma, Geneva, sans-serif; color: #4f485b; }
+.leftGen h6 span{ color: #5326ae; }
+
+.rightGen{ float:right; width: 84px;}
+.rightGen p{ margin: 25px 0 5px 0; padding: 3px 4px; background: #31145C; color: #fff; text-align:center; font: normal 16px Arial, Helvetica, sans-serif; }
+.rightGen img.users{ margin-top: 15px;}
+table.genTable{ margin-top:20px;}
+span.genTitle{ font: normal 12px Arial, Helvetica, sans-serif; color: #000; }
+span.genDet{ font: normal 12px Arial, Helvetica, sans-serif; color: #4E475C; line-height: 15px; }
+
+
+
+#relatedArea, #featureTopic, #eventBox, #eventBox1, #mostPopular, #topRating{ position: relative; margin-top: 20px; }
+#relatedArea p a.clickCheck, #featureTopic p a.clickCheck, #eventBox p a.clickCheck, #eventBox1 p a.clickCheck, #mostPopular p a.clickCheck{ position: absolute; right: 0; background: url("../img/clickcheck.jpg") no-repeat scroll right 10px transparent; color: #3D943F;  float: right; font: 11px Arial,Helvetica,sans-serif;  padding-right: 8px; padding-top: 8px; }
+.relatedArea{ position: relative; }
+#eventBox, #eventBox1{ margin-bottom: 20px; }
+ul.relatedGames{ margin-top: 15px; }
+ul.relatedGames li{ display:inline; float:left; }
+ul.relatedGames li img{ float: left; margin: 0 10px 20px 0; }
+ul.relatedGames li a{ float:left; color: #08b95c; font: normal 14px Arial, Helvetica, sans-serif; margin-right: 15px; }
+ul.relatedGames li a span{ font-size: 11px; color: #5326ae; font-style: italic; }
+ul.relatedGames li a span.offblue{ color: #7a708d; }
+
+ul.videoContent{ margin: 20px 0;}
+ul.videoContent li a{ display:block; float:left; padding: 13px 22px; }
+ul.videoContent li a span{padding-top: 5px; text-align:center; font: normal 12px Arial, Helvetica, sans-serif; color: #08b95c;  }
+
+
+
+
+/**------------------------------------ NEWS CSS  -------------------------------------------**/
+#featureGames{ margin: 20px 0; }
+
+a.readMore{ color: #009446; font: normal 11px Arial, Helvetica, sans-serif; }
+#featureGames img{ float: left; margin-right: 15px; border: 1px solid #000; }
+#featureGames h1{ font: normal 22px Arial, Helvetica, sans-serif;  }
+#featureGames h1 a{ font: normal 22px Arial, Helvetica, sans-serif; color: #000;}
+#featureGames h6{ font: italic normal 12px Arial, Helvetica, sans-serif; color: #a096b7; margin: 5px 0; }
+#featureGames h6 span{ font-size: 11px; color: #5421bd; }
+#featureGames p{ font: normal 12px Arial, Helvetica, sans-serif; color: #4d465b; margin-bottom: 15px; }
+#featureGames a{ color: #009446; font: normal 12px Arial, Helvetica, sans-serif;  }
+
+#pageNav ul{ margin:0; padding: 0; float:right; margin-top: 10px; }
+#pageNav ul li{ float:left; }
+#pageNav li a{ display:block; margin: 0 3px; padding: 2px 5px; font: normal 11px Arial, Helvetica, sans-serif; color: #2b7195; text-decoration:underline; }
+#pageNav li a.current{ border: 1px #CCC solid; background: #F4F4F4; text-decoration:none;  }
+#pageNav li a.clickCheck {font: normal 11px Arial, Helvetica, sans-serif;color: #3D943F;background: url(../img/clickcheck.jpg) right 2px no-repeat !important;padding: 0 8px 0 0 !important;float: right;}
+
+
+#pageNavList ul{ margin:0; padding: 0; margin-top: 10px; }
+#pageNavList ul li{ float:left; }
+#pageNavList li a{ display:block; margin: 0 3px; padding: 2px 5px; font: normal 11px Arial, Helvetica, sans-serif; color: #2b7195; text-decoration:underline; }
+#pageNavList li a.current{ border: 1px #CCC solid; background: #F4F4F4; text-decoration:none;  }
+
+.paging{ font: normal 12px Tahoma, Geneva, sans-serif; color: #666666; padding: 10px 0; }
+.paging span.disabled{ font-weight: bold; color: #666666; font-size: 11px; }
+.paging span.current{ font-weight: bold; padding: 3px 6px; color: red; }
+.paging span a{ color: #31145C; padding: 3px 6px; }
+.paging span a:hover{ border: 1px solid #31145C; }
+.paging a {
+    border: 1px solid #DDDDDD;
+    font: 11px Tahoma,Geneva,sans-serif;
+    margin-right: 2px;
+}
+
+
+.storiesContent {clear: both; border-top: 3px #31145c solid; padding: 5px 0; width: 100%; padding-top: 20px; }
+#topStories{ position:relative; margin-bottom: 20px; }
+#topStories p, #topRating p{ position: absolute; right: 0; top: 8px; font: normal 12px Arial, Helvetica, sans-serif; color: #5421bd;  }
+#topStories p a, #mostPopular p a, #topRating p a{ background: url("../img/clickcheck.jpg") no-repeat scroll right 10px transparent;font: normal 11px Arial, Helvetica, sans-serif; color: #3D943F; }
+	
+.storiesContent h1{ font: normal 12px Arial, Helvetica, sans-serif; padding-top: 5px; line-height: 10px; }
+.storiesContent img{ padding: 5px 10px; }
+.storiesContent  ul.listContent li{ border:0; }
+
+#mostPopular{ border-bottom: 3px #31145c solid;}
+.mostPopularContent {clear: both; border-top: 3px #31145c solid; padding: 5px 0; width: 100%; padding-top: 20px; }
+.mostPopularContent h1{ font: normal 12px Arial, Helvetica, sans-serif; line-height: 10px; }
+.mostPopularContent ul{ margin:0; padding: 0; }
+.mostPopularContent ul li{ display: block; padding: 0;}
+.mostPopularContent img{ margin: 10px 10px 0px 0;float: left;border: 1px solid black; }
+
+
+
+/**------------------------- NEWS INSIDE -----------------------------------------**/
+
+#featureNewsDetail { margin-top: 20px; }
+#featureNewsDetail h1{ font: normal 22px Arial, Helvetica, sans-serif;  }
+#featureNewsDetail h1 a{ font: normal 22px Arial, Helvetica, sans-serif; color: #000;}
+#featureNewsDetail h2{ font: italic normal 13px Arial, Helvetica, sans-serif;  }
+#featureNewsDetail h6{ font: italic normal 12px Arial, Helvetica, sans-serif; color: #a096b7; margin: 5px 0; }
+#featureNewsDetail h6 span{ font-size: 11px; color: #5421bd; }
+#featureNewsDetail p{ font: normal 12px Arial, Helvetica, sans-serif; color: #4d465b; margin: 20px 0; text-align: justify;  }
+#featureNewsDetail a{ color: #009446; font: normal 12px Arial, Helvetica, sans-serif;  }
+
+.newsDetail img{ /*float:right;*/ margin: 10px; margin-right: 0; border: 1px  #CCC solid; padding: 5px;}
+/*comment area*/
+.SocialBlock{ padding: 10px 0; border: 1px #d9cfef solid; border-width: 1px 0; margin-bottom: 20px; }
+.SocialBlock .commentCount{ float:left; width: 150px; }
+.SocialBlock .socials{ float: right; width: 355px; }
+
+.commentCount h6 a {
+    background: url("../img/comment.png") no-repeat scroll left 2px transparent;
+    color: #5420BD;
+    font: normal 11px Arial,Helvetica,sans-serif !important;
+    padding-left: 18px;
+}
+
+input.comment {
+	background: none repeat scroll 0 0 #00AA4F;
+	border: 0 none;
+	color: white;
+	cursor: pointer;
+	font: 11px Arial,Helvetica,sans-serif;
+	padding: 1px 3px;
+	position: relative;
+	top: -6px;
+}
+/*end of comment area*/
+
+/*tag it area*/
+.tagBlock{ padding: 10px 0; border: 1px #d9cfef solid; border-width: 1px 0; margin-bottom: 20px; }
+.tagBlock .tagCount{ float:left; width: 150px; }
+.tagBlock .socials{ float: right; width: 355px; }
+
+.tagCount h6 a {
+    background: url("../img/comment.png") no-repeat scroll left 2px transparent;
+    color: #5420BD;
+    font: normal 11px Arial,Helvetica,sans-serif !important;
+    padding-left: 18px;
+}
+
+input.tag {
+	background: none repeat scroll 0 0 #00AA4F;
+	border: 0 none;
+	color: white;
+	cursor: pointer;
+	font: 11px Arial,Helvetica,sans-serif;
+	padding: 1px 3px;
+	position: relative;
+	top: -6px;
+}
+
+#tag-msg {font: normal 12px Arial, Helvetica, sans-serif; }
+
+/*end of tag area*/
+
+#userComments{ margin-top: 20px; }
+#userComments li{  }
+
+#relatedReview { margin-top: 20px; }
+.commentAvatar{ float:left; width: 65px; overflow:hidden; padding-bottom: 3px; }
+/*.commentAvatar img{ margin-bottom: 3px; }*/
+.commentAvatar img{ margin-bottom: 3px; border: 1px solid #000; }
+.commentAvatar a{ font: normal 13px Arial, Helvetica, sans-serif; color: #5326ae; }
+.commentDetail{ float:right; width: 612px; position: relative; border-bottom: 1px #d9cfef solid; min-height: 75px; height: 75; height: auto !important; }
+.commentDetail p{ font: normal 12px Arial, Helvetica, sans-serif; color: #4d465b; margin-bottom: 25px; }
+.commentDetail h6{ font: italic 11px Arial, Helvetica, sans-serif; color: #a096b7; }
+.commentDetail a.options{ position: absolute; right: 0; bottom: 8px; font: normal 11px Arial, Helvetica, sans-serif; color: #009446; }
+
+
+
+/***---------------------------------------- USER LOGIN CSS -------------------------------------***/
+
+#userSign{ /*margin: 20px 0 50px 0; padding: 20px 10px;*/  background: #ececec; border: 1px solid #5326ae; border-width: 1px 0 4px 0;   }
+.registerForm{ float:left; width: 310px; padding-left: 20px; }
+.registerForm h1{ font: normal 27px Arial, Helvetica, sans-serif; color: #009446;  }
+.registerForm h2{ color: #4b4b4b; font: normal 13px Arial, Helvetica, sans-serif; margin: 10px 0; }
+.registerForm input.inputField{ margin: 5px 0; width: 280px; padding: 4px 3px; border: 1px #e0d9ec solid; background: #fff; color: #7B6D99; font-size: 11px; }
+.registerForm p{ margin: 15px 0; font: italic normal 11px Arial, Helvetica, sans-serif;}
+.registerForm p a{ color: #009446;  }
+
+
+.registerInfo{ float: right; width: 280px; border-left: 1px solid #d9cfef; }
+.registerInfo h3{ width: 118px; padding-right: 20px; font: normal 15px Arial, Helvetica, sans-serif; color: #5421bd; line-height: 30px; margin: 0 50px; }
+.registerInfo h2{ width: 118px; background:url(../img/whyregister.jpg) right top no-repeat; padding-right: 20px; font: normal 15px Arial, Helvetica, sans-serif; color: #5421bd; line-height: 30px; margin: 0 50px; }
+
+.registerInfo p{ margin: 5px 50px; font: normal 12px Arial, Helvetica, sans-serif; line-height: 18px; color: #4b4b4b;  }
+.registerInfo input.inputFieldLogin{ margin: 5px 0; margin-left: 60px; width: 170px; padding: 4px 3px; border: 1px #e0d9ec solid; background: #fff; }
+.registerInfo p a{ margin-left: 10px; font: normal 22px Arial, Helvetica, sans-serif; color: #009446; }
+.registerInfo p a.forgetPass{ color: #900; font: normal 12px Arial, Helvetica, sans-serif; }
+p.signUpPara{ font: normal 20px Arial, Helvetica, sans-serif; color: #009446; }
+
+
+
+/**-------------------------------- GAMES PAGE CSS -------------------------**/
+#gamesRatingsBlock{ background: #e6f1eb; padding: 8px; }
+#ratingImg{ float: left; width: 120px; height: 158px; overflow: hidden;border: 1px solid black; }
+#ratingDetail{ float: right; width: 510px; position: relative;}
+#ratingPoint{ float: right; width: 150px; position: absolute; right: 0; }
+#ratingPoint h2{ margin-bottom: 7px; padding: 3px 5px; background: #31145c; font: normal 40px Arial, Helvetica, sans-serif; color: #fff; text-align:center; }
+#ratingPoint p{ text-align: center; }
+#ratingTitle{ float: left; width: 360px;}
+#ratingTitle h1{ font: normal 35px Arial, Helvetica, sans-serif; color: #42b047; }
+#ratingTitle h6 {
+    color: #A096B7;
+    font: italic 12px Arial,Helvetica,sans-serif;
+    margin: 5px 0;
+}
+#ratingTitle h6 span {
+    color: #5421BD;
+    font-size: 11px;
+}
+
+table.ratingTable{ font: normal 11px Arial, Helvetica, sans-serif; color: #000; line-height: 14px; }
+h5.upcomeRange{ margin-top: 5px; margin-bottom: 20px; font-family: Arial, Helvetica, sans-serif; }
+h5.upcomeRange a{ font-size: 11px; color: #837b95; font-style: normal; }
+h4.trailerReview{ font: normal 13px Arial, Helvetica, sans-serif; }
+h4.trailerReview a{ font: normal 13px Arial, Helvetica, sans-serif; color: #31145c; }
+
+ul.upcomingList li{ display: block; float: left; width: 340px;}
+table.smarating{ width: 155px; margin-top: 5px; }
+table.smarating p{ background: #31145c; padding: 2px 1px; font: normal 14px Arial, Helvetica, sans-serif; color: #fff; }
+td.ratingLists img{ margin:0 0 0 2px; padding:0; border: 0px}
+h5.upcomeRange1{ margin-bottom: 0; margin-top:0; }
+
+.latesHeadline img{ float:left; margin: 0 10px 0 0; }
+.latesHeadline h6 span{ color: #A096B7;}
+.latesHeadline h6{ color:#A096B7; margin-top:0; }
+.latesHeadline p{ font: normal 11px Arial, Helvetica, sans-serif; margin-top: 5px; }
+.listDiv{ margin-bottom: 15px; }
+
+ul.topRate h1{ padding-right: 50px;}
+ul.topRate li{ position: relative; }
+ul.topRate h2{ margin-bottom: 10px; font: normal 12px Arial, Helvetica, sans-serif; }
+ul.topRate h2 a{ color: #837B95; font-size: 11px;  }
+ul.topRate h3{ font: normal 11px Arial, Helvetica, sans-serif; color: #7a708d;}
+ul.topRate h3 span{ color: #42b047; }
+.topPoint{ position: absolute; right:0; top: 0;  background: #42b047; color: #fff; font: normal 13px Arial, Helvetica, sans-serif; z-index:100; padding: 3px; }
+
+.topRate small{ font-family: Arial, Helvetica, sans-serif; font-size: 11px;}
+
+small span.topList{ color: #5326ae; }
+#topRating{ border-bottom:0;}
+
+#gamesRatingsBlock{ margin-bottom: 20px;}
+
+
+input.username{ color: #7B6D99;}
+
+
+
+/*********************** INSIDE PAGE CSS ***************************/
+
+.userRating{ position: absolute; z-index: 80000; top: 0px; background: #211143; padding: 5px; left: 1px; }
+
+.userRating h1.ratingRate{ display: block; background: #fff; font: normal 15px Arial, Helvetica, sans-serif; color: #31145c; line-height: 40px; }
+.userRating h1.ratingRate span.left{ float: left; width: 120px; padding-left: 10px; }
+.userRating h1.ratingRate span.right{ float: left; padding-top: 5px; width: 100px; font: normal 26px Arial, Helvetica, sans-serif; color: #42b047;  }
+img.backendImg{ position: relative; z-index: 100; }
+p.userRateScroll{ margin: 10px 0 0 10px ;}
+
+label.ratingLabel{ color: #FFF; font: normal 14px Arial, Helvetica, sans-serif; padding-right: 66px; }
+span.amountAll{ font: normal 16px Arial, Helvetica, sans-serif; color: #fff; }
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:0 !important;
+	left:0;
+	height:78px;
+	padding:5px 20px 0 20px;
+	background:#42b047;
+	background:rgba(66,176,71,.7);
+	width:638px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	/*border-top:1px solid #000;
+	text-shadow:none;*/
+}
+
+.caption h1{ font: normal 22px Arial, Helvetica, sans-serif; color: #FFF; margin-top: 5px; margin-left: 5px; margin-bottom: 10px; }
+.caption p{ font: italic normal 12px Arial, Helvetica, sans-serif; color: #FFF; }
+
+.noContent{padding-top: 30px; text-align: center;color: red;}
+
+
+
+#pageNavList {
+	padding-top: 15px;
+}
+
+#pageNavList div.paging span{
+	font-weight: bold;
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#pageNavList div.paging span.current{
+	color: red;
+	font-weight: bold;
+}
+
+#pageNavList div.paging span.prev, #pageNavList div.paging span.disabled, #pageNavList div.paging span.next{
+	
+	color: #31145c;
+	font-weight: bold;
+	font: normal 11px Tahoma, Geneva, sans-serif;
+	
+}
+
+
+
+#pageNavList div.paging span.disabled{
+	color: #666;
+	font-weight: bold;
+	font:Tahoma, Geneva, sans-serif;
+	
+}
+
+
+#pageNavList a {
+	border: solid 1px #DDDDDD;
+	margin-right: 2px;
+	font: normal 11px Tahoma, Geneva, sans-serif;
+}
+
+#pageNavList a:link, #pageNavList a:visited {
+	color: #31145c;
+	padding: 3px 6px;
+	text-decoration: none;
+}
+
+#pageNavList div.paging a:hover {
+border: solid 1px #666666;
+}
+
+#pageNavList a {
+    border: 1px solid #DDDDDD;
+    font: 11px Tahoma,Geneva,sans-serif;
+    margin-right: 2px;
+}
+
+.demo .ui-widget-content {
+    background: url("images/greenbg.png") no-repeat scroll left top transparent !important;
+	border: 0 !important;
+}
+
+.ui-slider-horizontal {
+    height: 19px !important;
+}
+
+.ui-corner-all {
+    border-radius: 0 !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: url("images/scrollarrow.png") no-repeat scroll left bottom transparent !important;
+}
+
+.ui-slider .ui-slider-handle {
+    cursor: default;
+    height: 7px !important;
+    position: absolute;
+    width: 10px !important;
+    z-index: 2;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    
+    margin-left: -0.6em !important;
+	top: 10px !important;
+	border: 0 !important;
+}
+
+.ui-widget-header {
+    background: url("images/scroll.png") repeat-x scroll 50% 50% #CCCCCC !important;
+    /*border: 1px solid #AAAAAA;*/
+    color: #222222;
+    font-weight: bold;
+}
